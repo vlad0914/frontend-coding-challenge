@@ -5,6 +5,4 @@ const rootReducer = combineReducers({
   tournaments
 });
 
-export type RootState = ReturnType<typeof rootReducer>;
-
 export default rootReducer;
