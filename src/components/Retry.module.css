@@ -1,0 +1,9 @@
+.container {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.retryButton {
+  display: block;
+  margin: 15px auto;
+}

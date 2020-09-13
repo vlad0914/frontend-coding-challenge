@@ -1,0 +1,11 @@
+.buttonsContainer {
+  margin-top: 10px;
+}
+
+.editButton {
+  margin-right: 8px;
+}
+
+.bodyParagraph > p {
+  margin-bottom: 0;
+}
