@@ -39,6 +39,7 @@ export default function tournaments(state = initialState, action) {
       state.isLoading = true;
       if (action.filteredTournaments.length === 0)
         state.unmatchedSearchFilter = true;
+      else state.unmatchedSearchFilter = false;
       return {
         ...state,
         tournaments: action.filteredTournaments,
